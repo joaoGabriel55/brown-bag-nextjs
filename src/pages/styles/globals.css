@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: antiquewhite;
+}
+
+body {
+  background-image: url('https://images5.alphacoders.com/967/967270.png');
+  background-size: cover;
+}
+
+.main-app {
+  margin: 18px;
+}
