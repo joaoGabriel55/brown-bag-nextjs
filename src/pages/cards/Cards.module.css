@@ -1,0 +1,31 @@
+
+.cards {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+
+.page-buttons-content {
+  margin-top: 18px;
+}
+
+.page-button {
+  margin: 0px 8px 0px 8px;
+  outline: inherit;
+  padding: 8px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  background-color: goldenrod;
+  color: darkblue;
+  cursor: pointer;
+  transform: skew(-20deg);
+}
+
+.page-button:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(255, 183, 0);
+}
+
+.page-button:disabled {
+  background-color: rgb(170, 142, 70);
+}

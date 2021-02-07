@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app'
 import React from "react"
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from './shared/components/Footer'
+import Header from './shared/components/header'
 import './styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {

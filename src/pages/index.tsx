@@ -1,10 +1,11 @@
+import Cards from './cards';
 import styles from './styles/Home.module.css';
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      Cards
+      <Cards />
     </div>
   )
 }

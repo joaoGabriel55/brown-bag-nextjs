@@ -3,8 +3,8 @@
 
 ## TODO
 
-- List Cards
-- Show Card Info
+- [x] List Cards
+- [ ] Show Card Info
 
 
 ## API
