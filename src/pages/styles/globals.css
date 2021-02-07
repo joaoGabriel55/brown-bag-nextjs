@@ -7,14 +7,13 @@
 }
 
 body {
-  background-image: url('https://images5.alphacoders.com/967/967270.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-size: auto 100%; */
-  background-position: left top;
-  height: 100%;
+  background-color: #131313;
 }
 
 .main-app {
-  margin: 18px;
+  padding: 18px;
+  background-image: url('https://lh3.googleusercontent.com/proxy/jV0aDDbt7fDvcvGpBwcBRjQS9X5ddrTHX3MxMnwN8BQ-KBXu--P27dfEffgrAvP7B2OWPoUQBCjwdryCMN1rscJewQoKvPmgk6HHzz-N-g0iFfP5ROkrd40UCZ-p6yQLZd6j1ZczT53p__M8hL27wGA=s0-d');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
