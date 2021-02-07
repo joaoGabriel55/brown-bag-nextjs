@@ -12,7 +12,7 @@ body {
 
 .main-app {
   padding: 18px;
-  background-image: url('https://lh3.googleusercontent.com/proxy/jV0aDDbt7fDvcvGpBwcBRjQS9X5ddrTHX3MxMnwN8BQ-KBXu--P27dfEffgrAvP7B2OWPoUQBCjwdryCMN1rscJewQoKvPmgk6HHzz-N-g0iFfP5ROkrd40UCZ-p6yQLZd6j1ZczT53p__M8hL27wGA=s0-d');
+  background-image: url('../../../public/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
