@@ -1,0 +1,15 @@
+.card-figure-container img {
+  display: flex;
+  padding: 18px;
+  transform-style: preserve-3d;
+  /* min-height: 80vh; */
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card-figure-container img {
+    display: flex;
+    padding: 18px;
+    width: auto;
+  }
+}

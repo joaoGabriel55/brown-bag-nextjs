@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
-import { LOGO_HEADER } from '../../shared/constants';
+import { LOGO_HEADER } from '../../../shared/constants';
 
 export default function Header() {
   return (
