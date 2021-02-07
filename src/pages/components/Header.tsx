@@ -1,11 +1,12 @@
-import Head from 'next/head'
-
 import React from 'react';
+import { LOGO_HEADER } from '../../shared/constants';
 
 export default function Header() {
   return (
     <header>
-      <h1>Yu-Gi-Oh!</h1>
+      <figure>
+        <img src={LOGO_HEADER} width="260" alt="Yu-gi-oh" />
+      </figure>
     </header>
   );
 }
