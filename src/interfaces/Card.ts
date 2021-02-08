@@ -1,10 +1,10 @@
 export default interface Card {
-  id: number
-  name: string
-  type: string
-  description: string
+  id: number | undefined
+  name: string | undefined
+  type: string | undefined
+  description: string | undefined
   cardImages: {
-    original: string
-    small: string
-  }
+    original: string | undefined
+    small: string | undefined
+  } | undefined
 }
