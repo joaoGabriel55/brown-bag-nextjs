@@ -8,7 +8,7 @@ export default function CardItem({ card }) {
   const { id, name, description, type, cardImages } = card as Card
   return (
     <div className={styles['card-container']}>
-      <Link href={{ pathname: `/showCard/${id}` }}>
+      <Link href={{ pathname: `/showCard/${encodeURIComponent(id)}` }}>
         <div className={styles['card-image']}>
           <figure>
             <img src={cardImages.small} width="108px" alt={name} />
