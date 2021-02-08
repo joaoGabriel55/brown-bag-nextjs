@@ -5,7 +5,11 @@ import styles from './CardItem.module.css'
 
 
 export default function CardItem({ card }) {
+  if (!card)
+    return <div>Loading card...</div>
+
   const { id, name, description, type, cardImages } = card as Card
+
   return (
     <div className={styles['card-container']}>
       <Link href={{ pathname: `/showCard/${encodeURIComponent(id)}` }}>
