@@ -5,3 +5,38 @@
   flex-direction: column;
   justify-content: start;
 }
+
+.input-email input {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+  color: darkblue;
+}
+
+.subscribe-button {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 8px;
+  color: goldenrod;
+  font-weight: bolder;
+  font-size: 16px;
+  border: darkgoldenrod solid;
+  transition-duration: 0.4s;
+  background-color: darkblue;
+}
+
+.subscribe-button:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 177);
+}
+
+@media only screen and (min-width: 700px) {
+  .input-email input {
+    width: 50%;
+  }
+  .input-email button {
+    width: 50%;
+  }
+}

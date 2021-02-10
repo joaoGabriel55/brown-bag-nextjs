@@ -11,6 +11,7 @@
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
     "@sl-codeblaster/react-3d-animated-card": "^1.0.8",
+    "@vercel/node": "^1.9.0",
     "axios": "^0.21.1",
     "next": "10.0.6",
     "react": "17.0.1",
